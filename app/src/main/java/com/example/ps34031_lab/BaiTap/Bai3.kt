@@ -34,5 +34,5 @@ fun main(){
         totalPrice -= totalPrice * (happyhour+bongio)
     }
 
-    println("Số tiền cần thanh toán: $totalPrice")
+    println("Số tiền cần thanh toán: ${totalPrice.toInt()}")
 }
