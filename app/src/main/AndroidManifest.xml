@@ -29,7 +29,7 @@
             android:theme="@style/Theme.PS34031_Lab" />
         <activity
             android:name=".Lab.Lab3.Lab3"
-            android:exported="false"
+            android:exported="true"
             android:label="@string/title_activity_lab3"
             android:theme="@style/Theme.PS34031_Lab" />
         <activity
