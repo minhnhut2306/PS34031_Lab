@@ -13,8 +13,23 @@
         android:theme="@style/Theme.PS34031_Lab"
         tools:targetApi="31">
         <activity
-            android:name=".Lab.Lab3.Lab3"
+            android:name=".Lab.Lab4.Lab4Bai3"
             android:exported="true"
+            android:label="@string/title_activity_lab4_bai3"
+            android:theme="@style/Theme.PS34031_Lab" />
+        <activity
+            android:name=".Lab.Lab4.Lab4Bai2"
+            android:exported="true"
+            android:label="@string/title_activity_lab4_bai2"
+            android:theme="@style/Theme.PS34031_Lab" />
+        <activity
+            android:name=".Lab.Lab4.Lab4Bai1"
+            android:exported="true"
+            android:label="@string/title_activity_lab4_bai1"
+            android:theme="@style/Theme.PS34031_Lab" />
+        <activity
+            android:name=".Lab.Lab3.Lab3"
+            android:exported="false"
             android:label="@string/title_activity_lab3"
             android:theme="@style/Theme.PS34031_Lab" />
         <activity
