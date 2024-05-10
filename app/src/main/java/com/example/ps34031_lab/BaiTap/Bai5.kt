@@ -24,7 +24,6 @@ fun main() {
         var so  = readLine()
         x = so?.toIntOrNull() ?: -1
         while (x < 1 || x > 8) {
-
             print("Nhập số 1-->8: ")
             so  = readLine()
             x = so?.toIntOrNull() ?: -1
