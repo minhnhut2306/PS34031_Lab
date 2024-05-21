@@ -6,7 +6,7 @@ fun main() {
         println("------------------------ Menu -----------------------------")
         println("| 0. Tắt chương trình                                     |")
         println("| 1. Kiểm tra số đó có phải là số hoàn thiện hay không    |")
-        println("| 2. Tạo chuỗi fibonacci từ 1 đến n                        |")
+        println("| 2. Tạo chuỗi fibonacci từ 1 đến n                       |")
         println("| 3. Kiểm tra xem số đó có phải là số đối xứng hay không? |")
         println("| 4. Kiểm tra xem số b có chứa trong số a hay không?      |")
         println("|---------------------------------------------------------|")
@@ -95,6 +95,7 @@ fun kiemTraSoDoiXung() {
     while (num > 0) {
         val chuso = num % 10
         sodaonguoc = sodaonguoc * 10 + chuso
+        print(sodaonguoc)
         num /= 10
     }
 
@@ -107,34 +108,40 @@ fun kiemTraSoDoiXung() {
 fun kiemTraSoChuaTrongSo() {
     var a: Int
     var b: Int
+    var bina = false
+
     do {
         print("Nhập số a: ")
         var soa = readLine()
         a = soa?.toIntOrNull() ?: -1
     } while (a < 0)
+
     do {
         print("Nhập số b: ")
         var sob = readLine()
         b = sob?.toIntOrNull() ?: -1
     } while (b < 0)
 
-    var digit: Int
-    var isContained = false
-
-    var tempA = a
-
-    while (a != 0) {
-        digit = a % 10
-        if (digit == b) {
-            isContained = true
+    var tempb = b
+    var sodemB = 0
+    while (tempb != 0) {
+        tempb /= 10
+        sodemB++
+    }
+    var aTemp = a
+    while (aTemp != 0) {
+        var kiemtraA = aTemp % (Math.pow(10.0, sodemB.toDouble())).toInt()
+        println(kiemtraA)
+        if (kiemtraA == b) {
+            bina = true
             break
         }
-        a /= 10
+        aTemp /= 10
     }
 
-    if (isContained) {
-        println("$b chứa trong $tempA.")
+    if (bina) {
+        println("$a chứa $b")
     } else {
-        println("$b không chứa trong $tempA.")
+        println("$a không chứa $b")
     }
 }

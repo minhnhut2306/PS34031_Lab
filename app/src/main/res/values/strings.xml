@@ -46,4 +46,9 @@
     <string name="title_activity_lab4_bai1">Lab4Bai1</string>
     <string name="title_activity_lab4_bai2">Lab4Bai2</string>
     <string name="title_activity_lab4_bai3">Lab4Bai3</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_login_smsactivity">LoginSMSActivity</string>
+    <string name="title_activity_password">PasswordActivity</string>
+    <string name="title_activity_acquainted">AcquaintedActivity</string>
+    <string name="title_activity_bai6">Bai6</string>
 </resources>

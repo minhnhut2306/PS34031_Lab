@@ -13,6 +13,31 @@
         android:theme="@style/Theme.PS34031_Lab"
         tools:targetApi="31">
         <activity
+            android:name=".BaiTap.Bai6"
+            android:exported="false"
+            android:label="@string/title_activity_bai6"
+            android:theme="@style/Theme.PS34031_Lab" />
+        <activity
+            android:name=".BaiTapLab.AcquaintedActivity"
+            android:exported="true"
+            android:label="@string/title_activity_acquainted"
+            android:theme="@style/Theme.PS34031_Lab" />
+        <activity
+            android:name=".BaiTapLab.PasswordActivity"
+            android:exported="true"
+            android:label="@string/title_activity_password"
+            android:theme="@style/Theme.PS34031_Lab" />
+        <activity
+            android:name=".BaiTapLab.LoginSMSActivity"
+            android:exported="true"
+            android:label="@string/title_activity_login_smsactivity"
+            android:theme="@style/Theme.PS34031_Lab" />
+        <activity
+            android:name=".BaiTapLab.LoginActivity"
+            android:exported="true"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.PS34031_Lab" />
+        <activity
             android:name=".Lab.Lab4.Lab4Bai3"
             android:exported="true"
             android:label="@string/title_activity_lab4_bai3"
@@ -34,7 +59,7 @@
             android:theme="@style/Theme.PS34031_Lab" />
         <activity
             android:name=".MainActivity"
-            android:exported="false"
+            android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.PS34031_Lab">
             <intent-filter>
