@@ -7,11 +7,10 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
@@ -96,8 +95,8 @@ fun Cong() {
             ),
             border = BorderStroke(1.dp, Color.Black),
         ) {
-        Text(text = "Đúng")
-    }
+            Text(text = "Đúng")
+        }
 
         Button(
             onClick = {
@@ -110,8 +109,6 @@ fun Cong() {
                 soramdomb = (Math.random() * 10 + 1).toInt()
                 ketqua = soramdoma + soramdomb
                 ketquarandom = (Math.random() * 20 + 2).toInt()
-
-
             },
             modifier = Modifier
                 .padding(top = 20.dp, bottom = 0.dp)
@@ -121,7 +118,7 @@ fun Cong() {
                 containerColor = Color(0xFFC0C0C0),
                 contentColor = Color.White
             ),
-            shape = RoundedCornerShape(5.dp),30
+            shape = RoundedCornerShape(5.dp),
             border = BorderStroke(1.dp, Color.Black),
         ) {
             Text(text = "Sai")

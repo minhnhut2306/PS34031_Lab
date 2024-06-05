@@ -51,4 +51,9 @@
     <string name="title_activity_password">PasswordActivity</string>
     <string name="title_activity_acquainted">AcquaintedActivity</string>
     <string name="title_activity_bai6">Bai6</string>
+    <string name="title_activity_bai7">Bai7</string>
+    <string name="title_activity_bai8">Bai8</string>
+    <string name="title_activity_demo2">Demo2</string>
+    <string name="title_activity_bai9">Bai9</string>
+    <string name="title_activity_bai10">Bai10</string>
 </resources>

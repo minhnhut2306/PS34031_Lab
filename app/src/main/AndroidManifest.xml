@@ -13,8 +13,33 @@
         android:theme="@style/Theme.PS34031_Lab"
         tools:targetApi="31">
         <activity
-            android:name=".BaiTap.Bai6"
+            android:name=".BaiTap.Bai10"
+            android:exported="true"
+            android:label="@string/title_activity_bai10"
+            android:theme="@style/Theme.PS34031_Lab" />
+        <activity
+            android:name=".BaiTap.Bai9"
+            android:exported="true"
+            android:label="@string/title_activity_bai9"
+            android:theme="@style/Theme.PS34031_Lab" />
+        <activity
+            android:name=".BaiTap.Demo2"
             android:exported="false"
+            android:label="@string/title_activity_demo2"
+            android:theme="@style/Theme.PS34031_Lab" />
+        <activity
+            android:name=".BaiTap.Bai8"
+            android:exported="true"
+            android:label="@string/title_activity_bai8"
+            android:theme="@style/Theme.PS34031_Lab" />
+        <activity
+            android:name=".BaiTap.Bai7"
+            android:exported="true"
+            android:label="@string/title_activity_bai7"
+            android:theme="@style/Theme.PS34031_Lab" />
+        <activity
+            android:name=".BaiTap.Bai6"
+            android:exported="true"
             android:label="@string/title_activity_bai6"
             android:theme="@style/Theme.PS34031_Lab" />
         <activity
